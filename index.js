@@ -1,6 +1,7 @@
 /* -----------------------------------------
   Have focus outline only for keyboard users 
  ---------------------------------------- */
+const h1 = document.querySelector('.Ali');
 
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
