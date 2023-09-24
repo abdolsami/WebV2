@@ -41,3 +41,16 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+class App {
+  constructor() {
+    this._timeColorChanger();
+  }
+  _timeColorChanger() {
+    setTimeout(function() {
+      h1.style.color = 'yellow'
+    }, 5000)
+  }
+}
+
+const app = new App();
